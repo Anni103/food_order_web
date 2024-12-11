@@ -1,0 +1,54 @@
+/* Recipe.css */
+.background {
+  background-image: url('../assets/recipe/recipebg.png'); /* Replace with the actual image URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-top: 60px; /* Adjust for fixed header height */
+}
+/* Header styling, positioned at the very top */
+.recpi_head {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+/* Main recipe container with top margin to clear the fixed header */
+.main_recipe {
+  max-width: 700px;
+  margin: 100px auto 0; /* Adjusted top margin to give space from header */
+}
+
+/* Heading styling */
+.text-recipi {
+  padding-top:100px ;
+  color: #e85a4f;
+  font-weight: bold;
+}
+
+/* Text area styling */
+.text-area_recipe {
+  resize: none;
+  border-color: #e85a4f;
+}
+
+/* Button styling */
+.button_recipe {
+  background-color: #e85a4f;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.button_recipe:hover {
+  background-color: #c14438;
+}
+
+/* Answer box styling */
+.answer_recipe {
+  font-size: 1rem;
+  color: #333;
+  max-height: 300px;
+  overflow-y: auto;
+}

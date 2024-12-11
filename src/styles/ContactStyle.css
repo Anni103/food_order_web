@@ -1,0 +1,72 @@
+.contact-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-form .form-control {
+    border-radius: 5px;
+  }
+  
+  .contact-form .send-button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form .send-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .thank-you-message {
+    margin-top: 30px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .emoji-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 40px;
+    margin-top: 15px;
+    animation: bounceIn 2s infinite;
+  }
+  
+  .emoji {
+    animation: bounce 0.5s alternate infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

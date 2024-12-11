@@ -1,0 +1,110 @@
+/* Main Blog Section */
+section.Blog_bhai {
+  padding-top: 60px; /* Reduced padding for mobile */
+  padding-bottom: 30px; /* Adjusted bottom padding */
+  background-color: #f8f9fa;
+  background-image: url('../assets/blog/bgofblog.png'); /* Background pattern */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Fade-in effect for blog section */
+section.fade-in {
+  opacity: 1;
+}
+
+/* Blog Post Styling */
+.blog-post {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px; /* Adjust height for mobile */
+  margin-bottom: 20px; /* Space between blog posts */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.blog-post:hover {
+  transform: scale(1.02);
+}
+
+.blog-post h3 {
+  font-size: 1.2rem; /* Adjusted heading size for mobile */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.blog-post p {
+  flex-grow: 1.2; /* Ensures that the content fills available space */
+  font-size: 15px; /* Smaller font size for readability */
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.read-more-button {
+  background-color: #ff6347; /* Tomato color */
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+  font-size: 15px; /* Slightly smaller for mobile */
+  
+}
+
+
+.read-more-button:hover {
+  background-color: #ff4500; /* Darker shade on hover */
+}
+
+h1 {
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.6rem; /* Reduced size for better mobile readability */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+/* Mobile View Specific Adjustments */
+@media (max-width: 768px) {
+  /* Blog Section Adjustments */
+  section.Blog_bhai {
+    padding-top: 40px; /* Reduced padding on top */
+    padding-bottom: 40px; /* Space for the footer */
+  }
+
+  /* Blog Post Adjustments */
+  .blog-post {
+    height: 220px; /* Adjusted height for mobile view */
+    margin: 10px 0; /* Add space between posts */
+    padding: 12px;
+  }
+
+  .blog-post h3 {
+    font-size: 1rem; /* Smaller font for headings on mobile */
+  }
+
+  .blog-post p {
+    font-size: 11px; /* Adjusted for better readability on small screens */
+  }
+
+  /* Read More Button */
+  .read-more-button {
+    font-size: 13px; /* Smaller button font */
+    padding: 6px 12px;
+  }
+
+  /* Heading */
+  h1 {
+    font-size: 1.4rem; /* Slightly smaller for mobile view */
+  }
+}
+
